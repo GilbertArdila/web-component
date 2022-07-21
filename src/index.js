@@ -1,14 +1,7 @@
 import './components/components.js';
 const container=document.querySelector(".show-products-body");
 
-// axios.get('https://api.escuelajs.co/api/v1/products')
-// .then(response=>response.data.map(product=>{
-    
-//     container.innerHTML+=`
-//     <platzi-products price='Precio ${product.price}'  title='Producto: ${product.title}' img=${product.images[0]}  ></platzi-products >
-//     `
-    
-// }));
+
 
 const getData=async()=>{
     

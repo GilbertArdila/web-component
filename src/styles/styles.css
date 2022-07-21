@@ -25,7 +25,7 @@ main{
     color: hsl(215deg 14% 90%);
 }
 .header-title{
-    color: rgb(152, 202, 63);
+    color: var(--main-color)
 }
 .show-products-body{
     width: 100%;
@@ -37,7 +37,8 @@ main{
 platzi-products{
     width:250px;
     height:auto;
-    margin:10px auto
+    margin:10px auto;
+    padding-left: 10px;
 }
 .loading-skelon-div{
     width:250px;
@@ -55,4 +56,10 @@ platzi-products{
         opacity: 0%;
     }
     
+}
+@media(min-width:1280px){
+    platzi-products{
+     
+        background-color:  var(--main-color);
+    }
 }

@@ -33,12 +33,13 @@ class products extends HTMLElement{
             --secondary-text-color:hsl(215deg 14% 80%);
             --green-color:rgb(152, 202, 63);
           }
+        
           div{
             display:flex;
             height:100%;
-             flex-direction:column;
+            flex-direction:column;
             justify-content:center;
-             width:100%;
+            width:250px;
             paddin:5px;
             border:2px solid var(--border-color);
             
@@ -58,11 +59,12 @@ class products extends HTMLElement{
             color:var(--secondary-text-color);
             font-size:1.6 rem;
         }
-        @media(min-width:1080px){
+        @media(min-width:1280px){
+         
               img{
-                width:200px;
-                margin:10px;
-                margin-bottom:32px;
+                width:180px;
+                margin:32px auto;
+               
                 transform:rotate(18deg);
               }
               div{
